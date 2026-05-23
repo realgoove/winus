@@ -27,7 +27,7 @@
 }
 .hero-phrase {
   display: block;
-  font-size: clamp(1.3rem, 2.8vw, 2.2rem);
+  font-size: clamp(1rem, 1.8vw, 1.5rem);
   font-weight: 700;
   color: #ffffff;
   line-height: 1.7;
