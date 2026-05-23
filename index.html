@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社WINUS | ITソリューション・システム開発</title>
+  <meta name="description" content="株式会社WINUSは東京・新宿を拠点とするITソリューション企業です。ソフトウェア開発、人材サービス、コンサルティングなど幅広い事業を展開しています。">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- ════ HEADER ════════════════════════════════════════ -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="#" class="logo-img-link">
+        <img src="images/logo.svg" alt="WINUS" class="header-logo">
+      </a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#info">COMPANY INFO</a></li>
+          <li><a href="#access">ACCESS</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="#about"    class="mobile-link">ABOUT</a></li>
+        <li><a href="#services" class="mobile-link">SERVICES</a></li>
+        <li><a href="#info"     class="mobile-link">COMPANY INFO</a></li>
+        <li><a href="#access"   class="mobile-link">ACCESS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ════ HERO ═══════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-phrases">
+        <span class="hero-phrase">よりスマートなソリューション.</span>
+        <span class="hero-phrase">ゴールドスタンダードのITサポート.</span>
+        <span class="hero-phrase">優れたカスタマーサービス.</span>
+      </div>
+      <div class="hero-btns">
+        <a href="#about" class="btn btn-outline-light">会社概要を見る</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ════ ABOUT & SERVICES ═══════════════════════════════ -->
+  <section class="section section-white" id="about">
+    <div class="container">
+      <p class="section-eyebrow" data-animate>About Us</p>
+      <h2 class="section-title" data-animate data-delay="1">会社概要</h2>
+      <div class="section-rule"></div>
+
+      <!-- 会社概要 -->
+      <div class="about-text-only" data-animate data-delay="2">
+        <p>株式会社WINUSは2005年の創業以来、東京・新宿を拠点としてITソリューション事業を展開してきました。</p>
+        <p>ソフトウェア開発・保守・データウェアハウス構築・クラウド活用など、幅広いIT領域でお客様のビジネス課題を解決します。</p>
+        <p>「テクノロジーと人をつなぐ」をミッションに、変化の速い時代においてもお客様とともに成長し続けます。</p>
+      </div>
+
+      <!-- 事業内容 -->
+      <div id="services" class="services-block" data-animate>
+        <p class="section-eyebrow">Services</p>
+        <h2 class="section-title">事業内容</h2>
+        <div class="section-rule"></div>
+        <div class="about-text-only">
+          <p>業務システム・Webアプリ・スマートフォンアプリなど、お客様のニーズに合わせたソフトウェアをフルスクラッチで開発します。</p>
+          <p>稼働中のシステムの定期メンテナンス・障害対応・バージョンアップ対応など、安定稼働をトータルサポートします。</p>
+          <p>大量データの収集・蓄積・分析基盤の設計・構築を行い、データドリブンな意思決定を支援します。</p>
+          <p>AWS・Azure・GCPを活用したクラウド移行・インフラ設計・コスト最適化・運用自動化を提供します。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════ COMPANY INFO ════════════════════════════════════ -->
+  <section class="section section-white" id="info">
+    <div class="container">
+      <p class="section-eyebrow" data-animate>Company Info</p>
+      <h2 class="section-title" data-animate data-delay="1">会社情報</h2>
+      <div class="section-rule"></div>
+      <dl class="info-list" data-animate data-delay="2">
+        <div class="info-row">
+          <dt>会社名</dt>
+          <dd>株式会社WINUS</dd>
+        </div>
+        <div class="info-row">
+          <dt>設立</dt>
+          <dd>2005年9月1日</dd>
+        </div>
+        <div class="info-row">
+          <dt>資本金</dt>
+          <dd>10,000,000円</dd>
+        </div>
+        <div class="info-row">
+          <dt>代表取締役</dt>
+          <dd>徐 永彬</dd>
+        </div>
+        <div class="info-row">
+          <dt>取締役</dt>
+          <dd>尹 晟珉</dd>
+        </div>
+        <div class="info-row">
+          <dt>所在地</dt>
+          <dd>〒160-0023 東京都新宿区西新宿3-3-13 西新宿水間ビル6階</dd>
+        </div>
+        <div class="info-row">
+          <dt>電話番号</dt>
+          <dd>03-6693-9821</dd>
+        </div>
+        <div class="info-row">
+          <dt>決算期</dt>
+          <dd>9月1日〜8月31日</dd>
+        </div>
+        <div class="info-row">
+          <dt>取引銀行</dt>
+          <dd>三菱UFJ銀行 新宿通支店</dd>
+        </div>
+        <div class="info-row">
+          <dt>事業内容</dt>
+          <dd>ソフトウェア開発・保守・維持管理／データウェアハウス構築／クラウドソリューション</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ════ ACCESS ══════════════════════════════════════════ -->
+  <section class="section section-white" id="access">
+    <div class="container">
+      <p class="section-eyebrow" data-animate>Access</p>
+      <h2 class="section-title" data-animate data-delay="1">アクセス</h2>
+      <div class="section-rule"></div>
+      <div class="access-grid">
+        <div class="access-info" data-animate data-delay="2">
+          <h3>株式会社WINUS</h3>
+          <p>〒160-0023<br>東京都新宿区西新宿3-3-13<br>西新宿水間ビル6階</p>
+          <p>TEL: 03-6693-9821</p>
+          <div class="access-routes">
+            <h4>交通アクセス</h4>
+            <ul>
+              <li>都営大江戸線「西新宿五丁目駅」A2出口 徒歩3分</li>
+              <li>東京メトロ丸ノ内線「西新宿駅」2番出口 徒歩8分</li>
+              <li>JR各線「新宿駅」西口 徒歩15分</li>
+            </ul>
+          </div>
+        </div>
+        <div class="access-map" data-animate data-delay="3">
+          <iframe
+            src="https://www.google.com/maps?q=東京都新宿区西新宿3-3-13&output=embed"
+            width="100%" height="340" style="border:0;"
+            allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════ FOOTER ══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#" class="footer-logo-link">
+          <img src="images/logo.svg" alt="WINUS" class="footer-logo-img">
+        </a>
+        <nav class="footer-nav">
+          <div class="footer-nav-group"><h4>Company</h4></div>
+          <div class="footer-nav-group"><h4>Services</h4></div>
+          <div class="footer-nav-group"><h4>Contact</h4></div>
+        </nav>
+        <p class="copyright">&copy; 2025 株式会社WINUS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

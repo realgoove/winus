@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" fill="none">
+
+  <!-- ── Node / molecule mark ── -->
+  <!-- Lines (drawn first, behind circles) -->
+  <line x1="18" y1="18" x2="34" y2="36" stroke="#C8521A" stroke-width="1.6"/>
+  <line x1="18" y1="18" x2="8"  y2="38" stroke="#C8521A" stroke-width="1.4"/>
+  <line x1="34" y1="36" x2="22" y2="54" stroke="#C8521A" stroke-width="1.4"/>
+  <line x1="34" y1="36" x2="50" y2="52" stroke="#C8521A" stroke-width="1.4"/>
+  <line x1="8"  y1="38" x2="22" y2="54" stroke="#C8521A" stroke-width="1.2"/>
+
+  <!-- Circles -->
+  <circle cx="18" cy="18" r="6"   fill="#C8521A"/>
+  <circle cx="34" cy="36" r="9"   fill="#C8521A"/>
+  <circle cx="8"  cy="38" r="4.5" fill="#C8521A"/>
+  <circle cx="22" cy="54" r="4"   fill="#C8521A"/>
+  <circle cx="50" cy="52" r="3.5" fill="#C8521A"/>
+
+  <!-- ── WINUS wordmark ── -->
+  <text
+    x="68" y="46"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="42"
+    font-weight="700"
+    fill="#2A1A0E"
+    letter-spacing="3"
+  >WINUS</text>
+
+  <!-- ── Tagline ── -->
+  <text
+    x="70" y="62"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="9.5"
+    font-weight="400"
+    fill="#8B7355"
+    letter-spacing="2"
+  >Constant spirit that challenges</text>
+
+</svg>
