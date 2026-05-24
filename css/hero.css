@@ -47,9 +47,23 @@
   opacity: 0;
   animation: phraseIn .9s cubic-bezier(.25,.46,.45,.94) forwards;
 }
-.hero-phrase:nth-child(1) { animation-delay: .3s; }
-.hero-phrase:nth-child(2) { animation-delay: .55s; }
-.hero-phrase:nth-child(3) { animation-delay: .8s; }
+.hero-phrase:nth-child(1) {
+  animation: phraseIn .9s cubic-bezier(.25,.46,.45,.94) .3s  forwards,
+             phraseColor 5s ease-in-out 1.4s infinite;
+}
+.hero-phrase:nth-child(2) {
+  animation: phraseIn .9s cubic-bezier(.25,.46,.45,.94) .55s forwards,
+             phraseColor 5s ease-in-out 1.9s infinite;
+}
+.hero-phrase:nth-child(3) {
+  animation: phraseIn .9s cubic-bezier(.25,.46,.45,.94) .8s  forwards,
+             phraseColor 5s ease-in-out 2.4s infinite;
+}
+
+@keyframes phraseColor {
+  0%, 25%, 75%, 100% { color: rgba(255, 255, 255, 1); }
+  50% { color: rgba(255, 200, 150, 0.88); }
+}
 .hero-phrase:hover {
   letter-spacing: .09em;
   text-shadow: 0 2px 24px rgba(200, 82, 26, 0.55), 0 1px 4px rgba(0,0,0,0.3);
