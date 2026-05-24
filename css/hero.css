@@ -4,13 +4,24 @@
   background: url('../images/hero-city.jpg') center center / cover no-repeat;
   display: flex; align-items: center; justify-content: center;
   position: relative; overflow: hidden;
+  --cx: 50%; --cy: 50%;
+  transition: background-position .08s ease-out;
 }
 
-/* 오버레이: 사진을 밝게 유지하면서 텍스트 가독성 확보 */
 .hero::before {
   content: '';
   position: absolute; inset: 0; z-index: 0;
   background: rgba(10, 5, 2, 0.08);
+}
+
+/* 커서 글로우 */
+.hero::after {
+  content: '';
+  position: absolute; inset: 0; z-index: 0;
+  background: radial-gradient(520px circle at var(--cx) var(--cy),
+    rgba(200, 82, 26, 0.13), transparent 65%);
+  pointer-events: none;
+  transition: background .15s;
 }
 
 .hero-content {
@@ -39,6 +50,11 @@
 .hero-phrase:nth-child(1) { animation-delay: .3s; }
 .hero-phrase:nth-child(2) { animation-delay: .55s; }
 .hero-phrase:nth-child(3) { animation-delay: .8s; }
+.hero-phrase:hover {
+  letter-spacing: .09em;
+  text-shadow: 0 2px 24px rgba(200, 82, 26, 0.55), 0 1px 4px rgba(0,0,0,0.3);
+  transition: letter-spacing .4s ease, text-shadow .4s ease;
+}
 
 /* ── CTA BUTTON ─────────────────────────────────────────── */
 .hero-btns {

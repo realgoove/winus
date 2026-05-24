@@ -31,16 +31,22 @@
 .nav-list a {
   font-size: .83rem; letter-spacing: .06em;
   color: var(--muted); font-weight: 500;
-  transition: color .2s; position: relative;
-  padding-bottom: 2px;
+  position: relative;
+  padding: 5px 10px; border-radius: 2px;
+  transition: color .2s, background .2s, letter-spacing .2s;
 }
 .nav-list a::after {
-  content: ''; position: absolute; bottom: -2px; left: 0;
-  width: 0; height: 1px; background: var(--orange);
-  transition: width .25s;
+  content: ''; position: absolute; bottom: 3px; left: 10px; right: 10px;
+  height: 1px; background: var(--orange);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform .25s cubic-bezier(.25,.46,.45,.94);
 }
-.nav-list a:hover { color: var(--dark); }
-.nav-list a:hover::after { width: 100%; }
+.nav-list a:hover {
+  color: var(--dark);
+  background: rgba(200, 82, 26, 0.06);
+  letter-spacing: .09em;
+}
+.nav-list a:hover::after { transform: scaleX(1); }
 
 .nav-cta {
   background: var(--orange); color: var(--white) !important;
