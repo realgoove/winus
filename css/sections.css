@@ -59,7 +59,7 @@
   color: var(--dark); margin-bottom: 10px;
 }
 .access-info p {
-  font-size: .85rem; color: var(--muted);
+  font-size: .85rem; color: var(--text);
   line-height: 1.75; margin-bottom: 8px;
 }
 .access-info a { color: var(--orange); }
@@ -70,7 +70,7 @@
 }
 .access-routes ul { list-style: none; }
 .access-routes li {
-  font-size: .83rem; color: var(--muted);
+  font-size: .83rem; color: var(--text);
   padding: 5px 0;
   line-height: 1.6; font-weight: 300;
   display: flex; align-items: baseline; gap: 10px;
