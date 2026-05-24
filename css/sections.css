@@ -3,7 +3,7 @@
   max-width: var(--content-w);
 }
 .about-text-only p {
-  font-size: .9rem; color: var(--muted);
+  font-size: .9rem; color: var(--text);
   margin-bottom: 12px; line-height: 1.8; font-weight: 300;
 }
 
