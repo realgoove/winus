@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://winus.co.jp/sitemap.xml
